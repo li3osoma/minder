@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">minder</string>
+
+    <string-array name="average">
+        <item>4.98</item>
+        <item>-0.67</item>
+    </string-array>
+
+
+</resources>
