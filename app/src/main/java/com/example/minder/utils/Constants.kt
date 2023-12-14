@@ -7,6 +7,39 @@ import com.example.minder.presentation.utils.Category
 import com.example.minder.presentation.utils.Day
 
 object Constants {
+
+    const val CATEGORY = "Category"
+    const val CATEGORY_ID = "category_id"
+    const val CATEGORY_NAME = "category_name"
+    const val CATEGORY_COLOR = "category_color"
+
+    const val NOTE = "Note"
+    const val NOTE_ID = "note_id"
+    const val NOTE_TITLE = "note_title"
+    const val NOTE_CONTENT = "note_content"
+    const val NOTE_CREATION_DATE = "note_creation_date"
+    const val NOTE_CATEGORY = "note_category"
+
+    const val TASK = "Task"
+    const val TASK_ID = "task_id"
+    const val TASK_TITLE = "task_title"
+    const val TASK_DESCRIPTION = "task_description"
+    const val TASK_CREATION_DATE = "task_creation_date"
+    const val TASK_DEADLINE_DATE = "task_deadline_date"
+    const val TASK_CATEGORY = "task_category"
+
+    const val TRACKER = "Tracker"
+    const val TRACKER_ID = "tracker_id"
+    const val TRACKER_TITLE = "tracker_title"
+    const val TRACKER_DESCRIPTION = "tracker_description"
+    const val TRACKER_CREATION_DATE = "tracker_creation_date"
+    const val TRACKER_START_DATE = "tracker_start_date"
+    const val TRACKER_FINISH_DATE = "tracker_finish_date"
+    const val TRACKER_DAY_NUM = "tracker_day_num"
+    const val TRACKER_DONE_NUM = "tracker_done_num"
+    const val TRACKER_LIST = "tracker_list"
+    const val TRACKER_CATEGORY = "tracker_category"
+
     val noteMocked = Note(
         title = "The Noodle Kingdom's Silly Rhyme",
         content = "In a land of noodles, where pineapples dance,\n" +
